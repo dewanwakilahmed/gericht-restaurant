@@ -6,12 +6,12 @@
 
   --letter-spacing-default: 0.04em;
 
-  --color-white: #ffffff;
-  --color-cream: #f5efdb;
-  --color-gold: #dcca87;
-  --color-grey-light: #aaaaaa;
-  --color-gray: #545454;
+  --color-golden: #dcca87;
   --color-black: #0c0c0c;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaaaaa;
+  --color-white: #ffffff;
 }
 
 * {

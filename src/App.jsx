@@ -1,7 +1,7 @@
 import React from "react";
 
-// CSS Module
-import classes from "./App.css";
+// CSS
+import "./App.css";
 
 // Containers
 import {
