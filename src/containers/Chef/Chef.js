@@ -1,8 +1,13 @@
 import React from 'react';
 
-import { SubHeading } from '../../components';
-import { images } from '../../constants';
+// CSS
 import './Chef.css';
+
+// Components
+import { SubHeading } from '../../components';
+
+// Data
+import { images } from '../../constants';
 
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
