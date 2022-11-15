@@ -14,7 +14,7 @@ import {
   Intro,
   Laurels,
   SpecialMenu,
-} from './container';
+} from './containers';
 
 // Components
 import { Navbar } from './components';
