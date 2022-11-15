@@ -1,25 +1,13 @@
 import React from 'react';
 
 // CSS
-import './Newsletter.css';
+import './FooterOverlay.css';
 
-// Component
-import SubHeading from '../SubHeading/SubHeading';
-
-const Newsletter = () => (
-  <div className="app__newsletter">
-    <div className="app__newsletter-heading">
-      <SubHeading title="Newsletter" />
-      <h1 className="headtext__cormorant">Subscribe To Our Newsletter</h1>
-      <p className="p__opensans">And never miss latest Updates!</p>
-    </div>
-    <div className="app__newsletter-input flex__center">
-      <input type="email" placeholder="Enter your email address" />
-      <button type="button" className="custom__button">
-        Subscribe
-      </button>
-    </div>
+const FooterOverlay = () => (
+  <div className="app__footerOverlay">
+    <div className="app__footerOverlay-black" />
+    <div className="app__footerOverlay-img app__bg" />
   </div>
 );
 
-export default Newsletter;
+export default FooterOverlay;
