@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url("./assets/bg.png");
+  background: url('./assets/bg.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -73,7 +73,7 @@
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  font-feature-settings: "tnum" on, "lnum" on;
+  font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
 }
