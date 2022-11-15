@@ -1,39 +1,37 @@
-import React from "react";
+import React from 'react';
 
 // CSS
-import "./App.css";
+import './App.css';
 
 // Containers
 import {
-  Header,
-  Intro,
   AboutUs,
-  SpecialMenu,
   Chef,
-  Laurels,
-  Gallery,
   FindUs,
   Footer,
-} from "./containers";
+  Gallery,
+  Header,
+  Intro,
+  Laurels,
+  SpecialMenu,
+} from './container';
 
 // Components
-import { Navbar } from "./components";
+import { Navbar } from './components';
 
-const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <Header />
-      <Intro />
-      <AboutUs />
-      <SpecialMenu />
-      <Chef />
-      <Laurels />
-      <Gallery />
-      <FindUs />
-      <Footer />
-    </div>
-  );
-};
+const App = () => (
+  <div>
+    <Navbar />
+    <Header />
+    <AboutUs />
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer />
+  </div>
+);
 
 export default App;
