@@ -35,6 +35,7 @@ const Footer = () => (
           src={images.spoon}
           className="spoon__img"
           style={{ marginTop: 15 }}
+          alt="spoon"
         />
         <div className="app__footer-links_icons">
           <FiFacebook />
