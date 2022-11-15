@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 // CSS
-import "./Navbar.css";
+import './Navbar.css';
 
-// Icons
-import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
+// React Icons
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdOutlineRestaurantMenu } from 'react-icons/md';
 
 // Images
-import images from "../../constants/images";
+import images from '../../constants/images';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
